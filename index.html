@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Tugas Kedua</title>
+</head>
+<body>
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center block justify-between relative">
+                <div class="px-4 mt-8 flex-row">
+                    <img src="./img/burger.png" class="absolute">
+                    <a href="#home" class="text-xl font-bold py-12 ml-9 flex-row">Foodyar</a>
+                </div>
+                <div class="flex items-center px-4 pt-8">
+                    <button id="option" name="option" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="option-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="option-line transition duration-300 ease-in-out"></span>
+                        <span class="option-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="lg:flex font-semibold">
+                            <li class="group">
+                                <a href="#home" class="text-base text-black py-2 mx-8 flex">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#beverages" class="text-base text-grey py-2 mx-8 flex group-hover:text-black">Beverages</a>
+                            </li>
+                            <li class="group">
+                                <a href="#chef" class="text-base text-grey py-2 mx-8 flex group-hover:text-black">Chef</a>
+                            </li>
+                            <li class="group">
+                                <a href="#ingredient" class="text-base text-grey py-2 mx-8 flex group-hover:text-black">Ingredient</a>
+                            </li>
+                            <li class="group">
+                                <a href="#stories" class="text-base text-grey py-2 mx-8 flex group-hover:text-black">Stories</a>
+                            </li>
+                            <li class="group mt-2">
+                                <a href="#kitchen" class="text-base font-semibold text-black bg-pink py-3 px-8 rounded-3xl hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">My Kitchen</a>
+                            </li> 
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="beranda" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2 pl-14">
+                    <h1 class="text-base block font-extrabold text-black block text-4xl lg:text-5xl">Eat What You Cook </h1>
+                        <h1 class="text-base block font-extrabold text-black block text-4xl mt-2 lg:text-5xl">With Us, Together!</h1>
+                        <p class="font-medium text-grey mt-4 mb-10 leading-relaxed">
+                            When you eat something that cooked by <br>
+                            yourself, the happiness is priceless.
+                        </p>
+                        <a href="#" class="text-base font-semibold text-black bg-yellow py-3 px-8 rounded-3xl hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Decide a Menu</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="./img/pic.png" alt="masak" class="max-w-full mx-auto">                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="menu" class="pt-36 pb-16">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h3 class="font-medium text-lg text-grey mb-2">Watch Now</h3>
+                    <h2 class="font-extrabold text-black text-3xl">Special to Try</h2>
+                
+                    <ul class="flex font-semibold justify-center pt-4">
+                        <li class="group">
+                            <a href="#healthy" class="text-base text-yellow underline underline-offset-8 py-2 mx-8 flex">Healthy Food</a>
+                        </li>
+                        <li class="group">
+                            <a href="#lunch" class="text-base text-black py-2 mx-8 flex group-hover:text-yellow">Lunch</a>
+                        </li>
+                        <li class="group">
+                            <a href="#vege" class="text-base text-black py-2 mx-8 flex group-hover:text-yellow">Vege Desert</a>
+                        </li>
+                        <li class="group">
+                            <a href="#ingredient" class="text-base text-black py-2 mx-8 flex group-hover:text-yellow">Ingredient</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full px-1 flex flex-wrap justify-center lg:1/4">
+                <div class="mb-12 p-4 text-center">
+                    <img src="./img/pic2.png" alt="salad" width="w-full xl:w-10/12 xl:mx-auto">
+                    <h2 class="font-semibold text-xl text-black mt-5 mb-3">Salad Kiwi Sugga</h2>
+                    <p class="font-medium text-base text-grey">Amir Samantha</p>
+                    <div class="flex items-center justify-center py-2">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                    </div>                   
+                </div>
+                <div class="mb-12 p-4 text-center">
+                    <img src="./img/pic3.png" alt="avocado" width="w-full xl:w-10/12 xl:mx-auto">
+                    <h2 class="font-semibold text-xl text-black mt-5 mb-3">Avocado Muscle</h2>
+                    <p class="font-medium text-base text-grey">John Lennonk</p>
+                    <div class="flex items-center justify-center py-2">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                    </div>                   
+                </div>
+                <div class="mb-12 p-4 text-center">
+                    <img src="./img/pic4.png" alt="bayam" width="w-full xl:w-10/12 xl:mx-auto">
+                    <h2 class="font-semibold text-xl text-black mt-5 mb-3">Bayam Red Poppeye</h2>
+                    <p class="font-medium text-base text-grey">Toekang Sayoer</p> 
+                    <div class="flex items-center justify-center py-2">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                    </div>                
+                </div>
+                <div class="mb-12 p-4 text-center">
+                    <img src="./img/pic5.png" alt="fruity" width="w-full xl:w-10/12 xl:mx-auto">
+                    <h2 class="font-semibold text-xl text-black mt-5 mb-3">Naga Fruity Joss</h2>
+                    <p class="font-medium text-base text-grey">Imelda Saranghae</p>
+                    <div class="flex items-center justify-center py-2">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                        <img src="./img/star.svg" class="w-5 h-5">
+                    </div>                 
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <section id="blockquote" class="pt-15 pb-10">
+        <div class="container">
+            <figure class="md-flex mx-auto max-w-screen-md text-center">
+                <blockquote>
+
+                    <p class="text-4xl text-center font-medium text-black dark:text-white bg-petik-to-tl">Awalnya saya malu dengan mertua karena tidak bisa memasak, kini mereka lebih suka makan malam di rumah demi menyantap masakan yang saya buat sendiri</p>
+                </blockquote>
+                <figcaption class="flex items-center mt-6 px-8">                   
+                    <div class="px-2 pr-6 mt-8 mb-4 flex-row">
+                        <div class="flex w-full mx-auto justify-between">
+                            <div class="pl-20 ml-20"><img src="./img/profile.png" alt=""></div>
+                            <div class="text-left pl-8"><h2 class="font-semibold text-xl text-black mt-5 mb-3">Camella Sarrah</h2>
+                                <p class="font-medium text-base text-grey">Vege Master</p>
+                            </div>
+                        </div>
+                    </div>                    
+                </figcaption>
+            </figure>  
+        </div>
+    </section>
+
+    <section id="count" class="pt-20 pb-10">
+        <div class="w-full max-w-xl mx-auto text-center mb-16 flex lg:flex justify-between space-x-6">
+            <div class="text-base font-extrabold text-black text-2xl">180.000+ <br>
+                <span class="font-normal text-base text-gray">MENU FOOD</span>
+            </div>
+            <div class="text-base font-extrabold text-black text-2xl">20.000+ <br>
+                <span class="font-normal text-base text-gray">CHEFS</span>
+            </div>
+            <div class="text-base font-extrabold text-black text-2xl">400.000+ <br>
+                <span class="font-normal text-base text-gray">COURSE</span>
+            </div>            
+            <div class="text-base font-extrabold text-black text-2xl">6.900.000 <br>
+                <span class="font-normal text-base text-gray">ALUMNI</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="conclusion" class="pt-30 pb-16">
+        <div id="download" class="basic-5">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
+                <div class="mb-16 lg:mb-0">
+                    <img src="./img/pic_camera.png" alt="alternative" />
+                </div>
+                <div class="w-full lg:mt-24 xl:mt-44 xl:ml-12 lg:mx-auto">
+                    <h1 class="text-base block font-extrabold text-black block text-4xl lg:text-5xl">Download our app </h1>
+                        <h1 class="text-base block font-extrabold text-black block text-4xl mt-2 lg:text-5xl">and join the contest</h1>
+                        <p class="font-medium text-grey mt-4 mb-4">
+                            In order to improve our cooking skills, <br>
+                            we do need a food photography </p>
+                    <div class="flex px-auto w-full items-center pt-4">
+                       <a class="btn-solid-lg flex space-x-12" href="./img/available-on-the-app-store-2.png"><img src="./img/available-on-the-app-store-2.png"></a>
+                       <div><a class="btn-solid-lg secondary flex mx-4 space-x-24" href="./img/google-play-download-android-app (1).png"><img src="./img/google-play-download-android-app (1).png"></a></div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    
+    <footer class="pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap pt-10 border-t border-grey-700">
+                <div class="px-2 pr-6 mt-8 mb-6 flex-row">
+                    <img src="./img/burger.png" class="absolute">
+                    <a href="#home" class="text-xl font-extrabold py-12 ml-9 flex-row">Foodyar</a>
+                </div>
+                <div class="w-full px-4 mb-12 lg:w-1/4 lg:pl-6">
+                    <h2 class="font-bold text-2xl text-black mb-3">Special Course</h2>
+                    <ul class="text-gray-400">
+                        <li>
+                            <a href="#wedding" class="inline-block text-base hover:text-black mb-3">Wedding Foods</a>
+                        </li>
+                        <li>
+                            <a href="#healthy" class="inline-block text-base hover:text-black mb-3">Healthy and Muscle</a>
+                        </li>
+                        <li>
+                            <a href="#office" class="inline-block text-base hover:text-black mb-3">Office Food Daily</a>
+                        </li>
+                        <li>
+                            <a href="#kids" class="inline-block text-base hover:text-black mb-3">Happy Kids</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 lg:w-1/4">
+                    <h2 class="font-bold text-2xl text-black mb-3">Company</h2>
+                    <ul class="text-gray-400">
+                        <li>
+                            <a href="#api" class="inline-block text-base hover:text-black mb-3">APIs Developer</a>
+                        </li>
+                        <li>
+                            <a href="#career" class="inline-block text-base hover:text-black mb-3">Career</a>
+                        </li>
+                        <li>
+                            <a href="#terms" class="inline-block text-base hover:text-black mb-3">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#privacy" class="inline-block text-base hover:text-black mb-3">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-2 mb-10 text-gray-400 font-medium lg:w-1/4">
+                    <h2 class="font-bold text-2xl text-black mb-3">Be Our Friend</h2>
+                    <p class="hover:text-black mb-2">3, Season Park, Jakarta</p>
+                    <p class="hover:text-black mb-2">support@foodyar.co.id</p>
+                    <p class="hover:text-black mb-2">021 - 1111 - 2222</p>
+                </div>
+            </div>
+            <div class="w=full pt-8 border-t border-grey-700">
+                <p class="font-medium text-sm text-black text-center">All Rights Reserved Foodyar by Pixel from BuildWith Angga 2020</p>
+            </div>
+        </div>
+    </footer>
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
